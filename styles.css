@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+@font-face {
+    src: url(./fonts/OpenSans-Regular.ttf);
+    font-family: 'OpenSans-Regular';
+}
+@font-face {
+    src: url(./fonts/OpenSans-Bold.ttf);
+    font-family: 'OpenSans-Bold';
+}
+
+body {
+    background-color: #f5fafb;
+}
+
+section {
+    padding-bottom: 70px;
+}
+
+.navBar {
+    width: 100%;
+    height: 72px;
+    background: rgb(8,183,175);
+    background: linear-gradient(90deg, rgba(8,183,175,1) 0%, rgba(30,135,172,1) 100%);
+    margin-bottom: 50px;
+}
+.logoContainer {
+    max-width: 900px;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    /* flex */
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+.logo {
+    width: 70px;
+}
+
+.legales {
+    max-width: 900px;
+    width: 90%;
+    margin: auto;
+}
+.titulo {
+    font-family: 'OpenSans-Bold';
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.subtitulo {
+    font-family: 'OpenSans-Bold';
+    font-weight: normal;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.texto {
+    font-family: 'OpenSans-Regular';
+    font-weight: normal;
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 30px;
+    list-style-position: inside;
+}
+li {
+    margin-bottom: 10px;
+}
+.seeMore {
+    font-family: 'OpenSans-Bold';
+    cursor: pointer;
+    color: #1e88ac;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+.seeMore:hover {
+    color: #2ba4cc;
+}
+.more {
+    background-color: #e3e9eb;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.tabla {
+    width: 100%;
+    /* flex */
+    display: flex;
+    flex-direction: column;
+}
+.tablaHeader {
+    width: 100%;
+    box-sizing: border-box;
+    
+    /* flex */
+    display: flex;
+}
+.tablaHeaderCol1 {
+    font-family: 'OpenSans-Bold';
+    background-color: #d2dbdf;
+    padding: 10px;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: justify;
+    /* flex */
+    flex-basis: 50%;
+}
+.tablaHeaderCol2 {
+    font-family: 'OpenSans-Bold';
+    background-color: #d2dbdf;
+    padding: 10px;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: justify;
+    /* flex */
+    flex-basis: 50%;
+}
+.tabla {
+    margin-bottom: 30px;
+}
+.tablaBody {
+    width: 100%;
+}
+.tablaSection {
+    width: 100%;
+    border-bottom: 3px solid #d2dbdf;
+    /* flex */
+    display: flex;
+}
+.tablaBodyCol1 {
+    font-family: 'OpenSans-Regular';
+    background-color: #d8e3e8;
+    padding: 10px;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: justify;
+    /* flex */
+    flex-basis: 50%;
+}
+.tablaBodyCol2 {
+    font-family: 'OpenSans-Regular';
+    background-color: #d8e3e8;
+    padding: 10px;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: justify;
+    /* flex */
+    flex-basis: 50%;
+}
+.tablaTexto {
+    font-family: 'OpenSans-Regular';
+    font-weight: normal;
+    font-size: 14px;
+    text-align: justify;
+    margin-bottom: 30px;
+    list-style-position: inside;
+}
+.link {
+    color: #1e88ac;
+    font-weight: bold;
+    text-decoration: none;
+}
+.link:hover {
+    color: #2ba4cc;
+}
